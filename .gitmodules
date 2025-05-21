@@ -1,0 +1,6 @@
+[submodule "spike-runner"]
+	path = spike-runner
+	url = git@github.com:msuadOf/spike-runner.git
+[submodule "linux-5.15.183"]
+	path = linux-5.15.183
+	url = git@github.com:msuadOf/linux-5.15.git
