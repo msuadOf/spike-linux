@@ -1,0 +1,499 @@
+[
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/basic/.fixdep.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-o",
+   "scripts/basic/fixdep",
+   "scripts/basic/fixdep.c"
+  ],
+  "file": "scripts/basic/fixdep.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/.dtc.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/dtc.o",
+   "scripts/dtc/dtc.c"
+  ],
+  "file": "scripts/dtc/dtc.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/.flattree.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/flattree.o",
+   "scripts/dtc/flattree.c"
+  ],
+  "file": "scripts/dtc/flattree.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/.fstree.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/fstree.o",
+   "scripts/dtc/fstree.c"
+  ],
+  "file": "scripts/dtc/fstree.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/.data.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/data.o",
+   "scripts/dtc/data.c"
+  ],
+  "file": "scripts/dtc/data.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/.livetree.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/livetree.o",
+   "scripts/dtc/livetree.c"
+  ],
+  "file": "scripts/dtc/livetree.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/.treesource.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/treesource.o",
+   "scripts/dtc/treesource.c"
+  ],
+  "file": "scripts/dtc/treesource.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/.srcpos.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/srcpos.o",
+   "scripts/dtc/srcpos.c"
+  ],
+  "file": "scripts/dtc/srcpos.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/.checks.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/checks.o",
+   "scripts/dtc/checks.c"
+  ],
+  "file": "scripts/dtc/checks.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/.util.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/util.o",
+   "scripts/dtc/util.c"
+  ],
+  "file": "scripts/dtc/util.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/.dtc-lexer.lex.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-I",
+   "./scripts/dtc",
+   "-c",
+   "-o",
+   "scripts/dtc/dtc-lexer.lex.o",
+   "scripts/dtc/dtc-lexer.lex.c"
+  ],
+  "file": "scripts/dtc/dtc-lexer.lex.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/.dtc-parser.tab.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-I",
+   "./scripts/dtc",
+   "-c",
+   "-o",
+   "scripts/dtc/dtc-parser.tab.o",
+   "scripts/dtc/dtc-parser.tab.c"
+  ],
+  "file": "scripts/dtc/dtc-parser.tab.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/libfdt/.fdt.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/libfdt/fdt.o",
+   "scripts/dtc/libfdt/fdt.c"
+  ],
+  "file": "scripts/dtc/libfdt/fdt.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/libfdt/.fdt_ro.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/libfdt/fdt_ro.o",
+   "scripts/dtc/libfdt/fdt_ro.c"
+  ],
+  "file": "scripts/dtc/libfdt/fdt_ro.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/libfdt/.fdt_wip.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/libfdt/fdt_wip.o",
+   "scripts/dtc/libfdt/fdt_wip.c"
+  ],
+  "file": "scripts/dtc/libfdt/fdt_wip.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/libfdt/.fdt_sw.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/libfdt/fdt_sw.o",
+   "scripts/dtc/libfdt/fdt_sw.c"
+  ],
+  "file": "scripts/dtc/libfdt/fdt_sw.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/libfdt/.fdt_rw.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/libfdt/fdt_rw.o",
+   "scripts/dtc/libfdt/fdt_rw.c"
+  ],
+  "file": "scripts/dtc/libfdt/fdt_rw.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/libfdt/.fdt_strerror.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/libfdt/fdt_strerror.o",
+   "scripts/dtc/libfdt/fdt_strerror.c"
+  ],
+  "file": "scripts/dtc/libfdt/fdt_strerror.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/libfdt/.fdt_empty_tree.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/libfdt/fdt_empty_tree.o",
+   "scripts/dtc/libfdt/fdt_empty_tree.c"
+  ],
+  "file": "scripts/dtc/libfdt/fdt_empty_tree.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/libfdt/.fdt_addresses.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/libfdt/fdt_addresses.o",
+   "scripts/dtc/libfdt/fdt_addresses.c"
+  ],
+  "file": "scripts/dtc/libfdt/fdt_addresses.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/libfdt/.fdt_overlay.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/libfdt/fdt_overlay.o",
+   "scripts/dtc/libfdt/fdt_overlay.c"
+  ],
+  "file": "scripts/dtc/libfdt/fdt_overlay.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/dtc/.fdtoverlay.o.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I",
+   "./scripts/dtc/libfdt",
+   "-DNO_YAML",
+   "-c",
+   "-o",
+   "scripts/dtc/fdtoverlay.o",
+   "scripts/dtc/fdtoverlay.c"
+  ],
+  "file": "scripts/dtc/fdtoverlay.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/.kallsyms.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-o",
+   "scripts/kallsyms",
+   "scripts/kallsyms.c"
+  ],
+  "file": "scripts/kallsyms.c"
+ },
+ {
+  "directory": "/home/zz/workplace/spike-linux/linux-5.15.183",
+  "arguments": [
+   "gcc",
+   "-Wp,-MMD,scripts/.sorttable.d",
+   "-Wall",
+   "-Wmissing-prototypes",
+   "-Wstrict-prototypes",
+   "-O2",
+   "-fomit-frame-pointer",
+   "-std=gnu89",
+   "-I./tools/include",
+   "-o",
+   "scripts/sorttable",
+   "scripts/sorttable.c"
+  ],
+  "file": "scripts/sorttable.c"
+ }
+]
