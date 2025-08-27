@@ -12,7 +12,7 @@ run:
 		IMAGE=$(boot_image)\
 		ARGS+="" \
 		run
-nemu-run:
+nemu-run:$(OPENSBI_IMAGE_BIN)
 	$(MAKE) -C $(NEMU_HOME) ISA=riscv32 run ARGS="$(NEMUFLAGS)" IMG=$(boot_image)
 nemu-menuconfig:
 	$(MAKE) -C $(NEMU_HOME) ISA=riscv32 menuconfig ARGS="$(NEMUFLAGS)" IMG=$(boot_image)
